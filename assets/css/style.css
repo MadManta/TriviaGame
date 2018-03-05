@@ -44,7 +44,7 @@ body {
 
 li {
 list-style: none;
-list-style-image: url('sqpurple.gif');
+/*list-style-image: url('sqpurple.gif');*/
 }
 
 li:hover {
