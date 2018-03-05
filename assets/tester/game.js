@@ -54,7 +54,7 @@ $.fn.trivia = function() {
             $("#timer").html("Time remaining: " + "00:" + _t.count + " secs");
             $("#question_div").html(_t.questions[_t.current].question);
             var choicesArr = _t.questions[_t.current].choices;
-            var buttonsArr = [];
+            // var buttonsArr = [];
 
             for (var i = 0; i < choicesArr.length; i++) {
                 var button = $('<button>');

@@ -1,0 +1,53 @@
+body {
+    background-image:url(../images/background.jpg);
+    font-size:18pt;
+    font-family: 'Comfortaa', cursive;
+}
+
+@font-face {
+    font-family: Futurama;
+    src: url(fr-bold.ttf);
+}
+
+
+.trivia {
+    background: rgba(231, 225, 219, 0.95);
+    border-radius:25px;
+    text-align:center;
+    border: solid 2px #000000;
+}
+
+.question {
+    font-size:40pt;
+    line-height:36pt;
+    font-weight:bold;
+    color:#B9212E;
+    -webkit-text-stroke: 1px black;
+    font-family: Futurama;
+    /* font-family: 'Bowlby One SC', cursive;*/
+}
+
+.countdown {
+    color:#B9212E;
+}
+
+.options {
+    font-size:18pt;
+    font-family: 'Comfortaa', cursive;
+}
+
+.small {
+    text-align:center;
+    color:#ffffff;
+    font-size:10pt;
+}
+
+li {
+list-style: none;
+list-style-image: url('sqpurple.gif');
+}
+
+li:hover {
+    background-color:#ffffff;
+    cursor: crosshair;
+}
